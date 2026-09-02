@@ -3,6 +3,7 @@
 body { /* configura o conteúdo como um todo */
     background-color: #bece94;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
@@ -139,6 +140,11 @@ footer p { /* rodapé */
 }
 
 /* ------------------------------------ página INDEX ------------------------------------ */
+#carrosselHorta {
+    width: 90%;
+    margin: auto;
+}
+
 .caixa { /* caixas de fundo */
     margin: 1rem 3.125rem;
     padding: 1.25rem 1.25rem;
@@ -201,11 +207,15 @@ footer p { /* rodapé */
 }
 
 .carousel-control-prev {
-    left: -60px; /* aproxima da borda esquerda */
+    left: -80px; /* aproxima da borda esquerda */
+    margin: 0;
+    padding: 0;
 }
 
 .carousel-control-next {
-    right: -60px; /* aproxima da borda direita */
+    right: -80px; /* aproxima da borda direita */
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 768px) { /* tablet */

@@ -164,7 +164,7 @@ export default function FaleConosco() {
                     </div>
                 </form>
                 <div className="row g-2">
-                    <div className="caixa-contatos col-md-5">
+                    <div className="caixa-contatos col-md-4">
                         <p className="titulo-label">Prefere mandar um e-mail ou conversa com um atendente?</p>
                         <a href="https://wa.me/5531985085780" target="_blank"><i className="bi bi-whatsapp fale-atendente"></i>
                             <p className="texto-icon intervalo-entre-campos">+55 31 98508-5780</p></a>
@@ -173,7 +173,7 @@ export default function FaleConosco() {
                         <a href="mailto:hortamapsolucao@gmail.com" target="_blank"><i className="bi bi-envelope fale-atendente"></i>
                             <p className="texto-icon">hortamapsolucao@gmail.com</p></a>
                     </div>
-                    <div className="caixa-contatos col-md-5">
+                    <div className="caixa-contatos col-md-4">
                         <p className="titulo-label">Você também pode acessar nossas redes sociais:</p>
                         <a href="https://www.instagram.com/hortamap/" target="_blank"><i
                             className="bi bi-instagram redes-fale-conosco"></i></a>
